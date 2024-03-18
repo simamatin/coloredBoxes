@@ -8,7 +8,7 @@ This project is a simple web application that allows the user to input color nam
 - Input color names directory or separated by commas.
 - Generate colored boxes based on the entered color names.
 - Utilize key events to create color boxes by pressing ehe Enter key.
-- Simple and efficient design using , , and . 
+- Simple and efficient design using HTML, CSS, and JS. 
 
 
 ## How to Use:
@@ -17,8 +17,15 @@ This project is a simple web application that allows the user to input color nam
 2. Press the "Run" button or press the Enter key to create corresponding color boxes.
 3. View the generated color boxes based on the entered inputs.
 
+   
 ## Technologies Used:
 
-- HTML
-- CSS
-- JavaScript
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+## Project Link
+
+[Colored Boxes](https://github.com/simamatin/coloredBoxes.git)
