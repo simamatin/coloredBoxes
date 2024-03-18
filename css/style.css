@@ -9,12 +9,11 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #d2cece;
+    background-color: #eeeded;
 }
 
 .change {
     text-align: center;
-
 }
 
 .color-label {
