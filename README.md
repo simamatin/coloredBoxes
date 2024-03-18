@@ -19,7 +19,6 @@ This project is a simple web application that allows the user to input color nam
 
 ## Technologies Used:
 
-
 - HTML
 - CSS
 - JavaScript
