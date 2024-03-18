@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #d2cece;
+}
+
+.change {
+    text-align: center;
+
+}
+
+.color-label {
+    color: #a115a1;
+    font-size: 20px;
+}
+
+.change-input,
+.change-btn {
+    padding: 15px;
+    margin: 200px 10px 50px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.change-btn {
+    background-color: #a115a1;
+    color: #fff;
+}
+
+.change-input:focus {
+    border: 1px solid #561a56;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #561a56;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 100px 10px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
