@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background-color: #d2cece;
+        }
+
+        .change {
+            text-align: center;
+
+        }
+
+        .color-label {
+            color: #a115a1;
+            font-size: 20px;
+        }
+
+        .change-input,
+        .change-btn {
+            padding: 15px;
+            margin: 200px 10px 50px;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .change-btn {
+            background-color: #a115a1;
+            color: #fff;
+        }
+
+        .change-input:focus {
+            border: 1px solid #561a56;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            border: 1px solid #561a56;
+            display: inline-block;
+            border-radius: 100%;
+            margin: 100px 10px;
+            text-align: center;
+            line-height: 100px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="change">
+    <label for="color-input" class="color-label">Please Enter the Color Name:</label>
+    <input id="color-input" class="change-input" type="text" placeholder="Color Name">
+    <button id="color-btn" class="change-btn">Run</button>
+</div>
+<div id="color-boxes"></div>
+<div id="main"></div>
+
+<script>
+    let colorInput = document.getElementById('color-input');
+    let colorBtn = document.getElementById('color-btn');
+
+    colorBtn.addEventListener('click', () => {
+        createColorBoxes();
+    });
+
+    colorInput.addEventListener('keyup', event => {
+        if (event.key === "Enter") {
+            createColorBoxes();
+        }
+    });
+
+    function createColorBoxes() {
+        let inputValues = colorInput.value;
+        if (inputValues.trim() === '') {
+            alert("Please enter some color values.");
+            return;
+        }
+        let arr = inputValues.split(",");
+        for (let i in arr) {
+            let createBox = document.createElement('DIV');
+            createBox.style.backgroundColor = arr[i];
+            createBox.innerHTML = arr[i];
+            createBox.className = 'box';
+            document.getElementById("main").appendChild(createBox);
+        }
+        colorInput.value = '';
+    }
+
+</script>
+</body>
+</html>
