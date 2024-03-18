@@ -28,4 +28,4 @@ This project is a simple web application that allows the user to input color nam
 
 ## Project Link
 
-[Colored Boxes](https://github.com/simamatin/coloredBoxes.git)
+[Colored Boxes](https://simamatin.github.io/coloredBoxes/)
