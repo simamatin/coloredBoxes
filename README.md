@@ -3,6 +3,10 @@
 This project is a simple web application that allows the user to input color names and generate corresponding colored boxes. Users can input colors directly or by using a comma as a separator. They can create color boxes either by pressing the "Run" button or by pressing the Enter key.
 </p>
 
+## Project Link (Online)
+
+[Colored Boxes](https://simamatin.github.io/coloredBoxes/)
+
 ## Features:
 
 - Input color names directory or separated by commas.
@@ -25,7 +29,3 @@ This project is a simple web application that allows the user to input color nam
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
-## Project Link
-
-[Colored Boxes](https://simamatin.github.io/coloredBoxes/)
